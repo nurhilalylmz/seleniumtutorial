@@ -1,22 +1,32 @@
 package tutorial;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
+        import org.junit.Assert;
+        import org.junit.Before;
+        import org.junit.Test;
+        import org.openqa.selenium.By;
+        import org.openqa.selenium.JavascriptExecutor;
+        import org.openqa.selenium.WebElement;
+        import org.openqa.selenium.interactions.Actions;
+        import org.openqa.selenium.support.ui.ExpectedConditions;
+        import org.openqa.selenium.support.ui.Select;
+        import org.openqa.selenium.support.ui.WebDriverWait;
 
-import webelements.PracticePage;
+        import webelements.ApsiyonHomePage;
+        import webelements.PracticePage;
+        import webelements.TrendyolMainPage;
 
 public class TestMainPage extends BaseClass
 {
     PracticePage practicePage;
+    TrendyolMainPage trendyolMainPage;
+    ApsiyonHomePage apsiyonHomePage;
 
     @Before
     public void setupTest()
     {
         practicePage = new PracticePage(driver);
+        trendyolMainPage = new TrendyolMainPage(driver);
+        apsiyonHomePage = new ApsiyonHomePage(driver);
     }
 
     @Test
@@ -94,6 +104,40 @@ public class TestMainPage extends BaseClass
             String currentdisplayedTextGetStyle = practicePage.displayedText.getAttribute("style");
             Assert.assertEquals("display: block;", currentdisplayedTextGetStyle);
         }
+    }
+
+
+    public void executeScript(String js)
+    {
+        ((JavascriptExecutor) driver).executeScript(js);
+    }
+
+    @Test
+    public void testExecuteScript()
+    {
+        driver.navigate().to("https://learn.letskodeit.com/p/practice");
+        executeScript("window.open('https://learn.letskodeit.com/p/practice')");
+    }
+
+    @Test
+    public void testMouseOver() throws InterruptedException
+    {
+        driver.navigate().to("https://www.trendyol.com/");
+        trendyolMainPage.announcementCloseButton.click();
+
+        Thread.sleep(2000);
+        Actions action = new Actions(driver);
+        action.moveToElement(trendyolMainPage.manMenu).perform();
+    }
+
+    @Test
+    public void testWaitElementClickable()
+    {
+        driver.navigate().to("https://www.apsiyon.com/");
+        driver.switchTo().frame(apsiyonHomePage.mainPageIFrame);
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        wait.until(ExpectedConditions.elementToBeClickable(apsiyonHomePage.intercomLauncher));
+        apsiyonHomePage.intercomLauncher.click();
     }
 
 }

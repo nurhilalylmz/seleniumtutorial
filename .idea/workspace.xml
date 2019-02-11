@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c24341-085b-4d8b-87d5-4168b7b33b1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tutorial/TestMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelements/PracticePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelements/ApsiyonHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelements/TrendyolMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tutorial/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tutorial/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/selenium.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tutorial/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tutorial/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tutorial/TestMainPage.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,10 +24,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+            <state relative-caret-position="523">
+              <caret line="133" column="39" lean-forward="true" selection-end-line="143" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2938#2939#0" expanded="true" />
+                <element signature="e#2955#2956#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/webelements/ApsiyonHomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +77,9 @@
         <option value="$PROJECT_DIR$/src/test/java/tutorial/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/webelements/PracticePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tutorial/BaseClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webelements/TrendyolMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tutorial/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/webelements/ApsiyonHomePage.java" />
       </list>
     </option>
   </component>
@@ -66,7 +90,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="848" />
@@ -77,56 +101,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumtutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtutorial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumtutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumtutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumtutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumtutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="selenium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="seleniumtutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumtutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webelements" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549533049005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549908302330" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -149,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMainPage.testMainPageApsiyon">
+  <component name="RunManager" selected="JUnit.TestMainPage.testWaitElementClickable">
     <configuration name="BaseClass.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium" />
       <extension name="coverage">
@@ -161,6 +187,22 @@
       <option name="PACKAGE_NAME" value="tutorial" />
       <option name="MAIN_CLASS_NAME" value="tutorial.BaseClass" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testExecuteScript" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tutorial" />
+      <option name="MAIN_CLASS_NAME" value="tutorial.TestMainPage" />
+      <option name="METHOD_NAME" value="testExecuteScript" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,8 +224,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMainPage.testMouseOver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tutorial" />
+      <option name="MAIN_CLASS_NAME" value="tutorial.TestMainPage" />
+      <option name="METHOD_NAME" value="testMouseOver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testWaitElementClickable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tutorial" />
+      <option name="MAIN_CLASS_NAME" value="tutorial.TestMainPage" />
+      <option name="METHOD_NAME" value="testWaitElementClickable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMainPage.testWaitElementClickable" />
+        <item itemvalue="JUnit.TestMainPage.testMouseOver" />
+        <item itemvalue="JUnit.TestMainPage.testExecuteScript" />
         <item itemvalue="JUnit.TestMainPage.testMainPageApsiyon" />
         <item itemvalue="JUnit.BaseClass.test1" />
       </list>
@@ -203,42 +280,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 16m 38s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testMouseOver - 2019.02.11 at 20h 12m 32s.xml">
+      <configuration name="TestMainPage.testMouseOver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 21m 28s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testMouseOver - 2019.02.11 at 20h 13m 19s.xml">
+      <configuration name="TestMainPage.testMouseOver" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 21m 43s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testWaitElementClickable - 2019.02.11 at 20h 35m 48s.xml">
+      <configuration name="TestMainPage.testWaitElementClickable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 22m 18s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testWaitElementClickable - 2019.02.11 at 20h 38m 01s.xml">
+      <configuration name="TestMainPage.testWaitElementClickable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 40m 52s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testWaitElementClickable - 2019.02.11 at 20h 40m 32s.xml">
+      <configuration name="TestMainPage.testWaitElementClickable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 42m 31s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testWaitElementClickable - 2019.02.11 at 20h 41m 29s.xml">
+      <configuration name="TestMainPage.testWaitElementClickable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 43m 05s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testWaitElementClickable - 2019.02.11 at 20h 42m 07s.xml">
+      <configuration name="TestMainPage.testWaitElementClickable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 45m 56s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testWaitElementClickable - 2019.02.11 at 20h 47m 07s.xml">
+      <configuration name="TestMainPage.testWaitElementClickable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 46m 25s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testWaitElementClickable - 2019.02.11 at 20h 50m 18s.xml">
+      <configuration name="TestMainPage.testWaitElementClickable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestMainPage_testMainPageApsiyon - 2019.02.06 at 21h 49m 41s.xml">
-      <configuration name="TestMainPage.testMainPageApsiyon" configurationId="JUnit" />
+    <history-entry file="TestMainPage_testWaitElementClickable - 2019.02.11 at 20h 58m 28s.xml">
+      <configuration name="TestMainPage.testWaitElementClickable" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="848" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1030" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893162" visible="true" weight="0.16881259" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893162" visible="true" weight="0.12726304" />
       <window_info id="Structure" order="1" sideWeight="0.50106835" side_tool="true" weight="0.124068156" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,15 +324,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44123933" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49358973" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42217484" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39658847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3283582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -359,19 +436,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webelements/TrendyolMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/BaseClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="368">
+          <caret line="16" column="17" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/webelements/ApsiyonHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tutorial/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+        <state relative-caret-position="523">
+          <caret line="133" column="39" lean-forward="true" selection-end-line="143" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2938#2939#0" expanded="true" />
+            <element signature="e#2955#2956#0" expanded="true" />
           </folding>
         </state>
       </provider>
